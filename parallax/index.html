@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parallax</title>
+	<meta charset="utf-8">
+	
+	<style type="text/css">
+		
+		/* Configuração padrão da página
+		-------------------------------*/
+		body, html {
+			margin: 0;
+			font: 16px "Lato", sans-serif;
+			color: #777;
+			height: 100%;
+		}
+
+		.conteudo {
+			color: #777;
+			background-color: white;
+			text-align: justify;
+			padding: 50px 80px;
+		}
+
+		h3 {
+			text-transform: uppercase;
+			color: #111;
+			text-align: center;
+		}
+
+		p{
+			margin-bottom: 20px;
+		}
+
+		/* Efeito Parallax
+		-------------------------------*/
+		.caixa1, .caixa2, .caixa3, .caixa4, .caixa5 {
+			position: relative;
+			height: 100%;
+			opacity: 0.7;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed; 
+		}
+
+		.caixa1 {
+			background-image: url(imagens/imagem1.jpg);
+		}
+
+		.caixa2 {
+			background-image: url(imagens/imagem2.jpg);
+		}
+
+		.caixa3 {
+			background-image: url(imagens/imagem3.avif);
+		}
+
+		.caixa4 {
+			background-image: url(imagens/imagem6.jpg);
+		}
+
+		.caixa5 {
+			background-image: url(imagens/imagem5.jpeg);
+		}
+
+		.conteudo-titulo {
+			position: absolute;
+			left: 0;
+			top: 45%;
+			width: 100%;
+			text-align: center;
+		}
+
+		.conteudo-titulo span.titulo {
+			color: #fff;
+			background-color: #111;
+			padding: 18px;
+			font-size: 25px;
+			letter-spacing: 5px;
+			text-transform: uppercase;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="caixa1">
+		<div class="conteudo-titulo">
+			<span class="titulo">Demon Slayer | Kimetsu no Yaiba</span>
+		</div>
+	</div>
+
+	<div class="conteudo">
+		<h3>Sobre a Obra</h3>
+		<p>Demon Slayer, ou Kimetsu no Yaiba, é uma série que segue a jornada de Tanjirō Kamado, um jovem que se torna caçador de demônios após sua família ser massacrada por essas criaturas, e sua irmã Nezuko ser transformada em um oni.</p>
+
+		<p>Kimetsu no Yaiba (鬼滅の刃, Kimetsu no Yaiba; tradução aproximada "Lâmina de Destruição de Demônios"), também conhecido pelo título em língua inglesa Demon Slayer (Matador de Demônios, em português) é uma série japonesa de mangá shōnen escrita e ilustrada por Koyoharu Gotōge. </p>
+	</div>
+
+	<div class="caixa2">
+		<div class="conteudo-titulo">
+			<span class="titulo">Tanjirō Kamado (竈門炭治郎, Kamado Tanjirō)</span>
+		</div>
+	</div>
+
+	<div class="conteudo">
+		<h3>Nezuko Kamado (竈門禰豆子, Kamado Nezuko)</h3>
+		<p>Tanjirō é o filho mais velho de um vendedor de carvão. Sua família inteira foi massacrada por um demônio enquanto ele vendia carvão numa cidade, com apenas sua irmã Nezuko sobrevivendo, porém se transformando em oni. Seu objetivo é encontrar uma cura para ela e transformá-la de volta em um humana, e é para esse fim que ele decide se juntar à Ki-satsutai (鬼殺隊; lit. "Organização dos Aniquiladores de Demônios").</p>
+
+		<p>nicialmente, Tanjirō treinou por cerca de dois anos com Urokodaki, aprendendo o estilo de batalha "Respiração da Água" (水の呼吸法, Mizu no Kokyū-hō), e a aprimorando desde então. Posteriormente, Tanjirō começa a utilizar uma técnica ancestral de sua família, a Hinokami Kagura (ヒノカミ神楽; lit. "Dança do deus do fogo"), como uma forma mais poderosa de batalha, mas depois a fundiu com as técnicas de Respiração Aquática para criar um estilo de batalha mais eficiente.</p>
+	</div>
+
+	<div class="caixa3">
+		<div class="conteudo-titulo">
+			<span class="titulo">Nezuko Kamado (竈門禰豆子, Kamado Nezuko)</span>
+		</div>
+	</div>
+
+	<div class="caixa4">
+		<div class="conteudo-titulo">
+			<span class="titulo">Zenitsu Agatsuma (我妻善逸, Agatsuma Zen'itsu)</span>
+		</div>
+	</div>
+
+	<div class="caixa5">
+		<div class="conteudo-titulo">
+			<span class="titulo">Inosuke Hashibira (嘴平伊之助, Hashibira Inosuke)</span>
+		</div>
+	</div>
+
+</body>
+</html>
